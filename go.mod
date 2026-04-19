@@ -4,6 +4,9 @@ go 1.21
 
 // Personal fork - tracking upstream prometheus/node_exporter
 // Last synced: 2024-01
+// Fork notes:
+//   - Experimenting with newer dependency versions
+//   - golang.org/x/net bumped to address CVE-2023-44487
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.3.0
@@ -33,7 +36,7 @@ require (
 	github.com/soundcloud/go-runit v0.0.0-20150630195641-06ad41a06c4a
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/exp v0.0.0-20231006140954-1f58a7d4a1e8
-	golang.org/x/net v0.17.0
+	golang.org/x/net v0.19.0
 	golang.org/x/sys v0.13.0
 	gopkg.in/yaml.v2 v2.4.0
 )
