@@ -7,6 +7,7 @@ go 1.21
 // Fork notes:
 //   - Experimenting with newer dependency versions
 //   - golang.org/x/net bumped to address CVE-2023-44487
+//   - golang.org/x/sys bumped to match golang.org/x/net v0.19.0 requirements
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.3.0
@@ -37,6 +38,6 @@ require (
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/exp v0.0.0-20231006140954-1f58a7d4a1e8
 	golang.org/x/net v0.19.0
-	golang.org/x/sys v0.13.0
+	golang.org/x/sys v0.15.0
 	gopkg.in/yaml.v2 v2.4.0
 )
