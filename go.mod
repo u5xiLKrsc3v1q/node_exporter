@@ -10,6 +10,7 @@ go 1.21
 //   - golang.org/x/sys bumped to match golang.org/x/net v0.19.0 requirements
 //   - golang.org/x/exp bumped to latest for experimental slices/maps usage
 //   - TODO: try upgrading prometheus/client_golang to v1.18.x when stable
+//   - TODO: upgrade prometheus/procfs once v0.13.0 is released
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.3.0
@@ -39,7 +40,7 @@ require (
 	github.com/soundcloud/go-runit v0.0.0-20150630195641-06ad41a06c4a
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a
-	golang.org/x/net v0.19.0
-	golang.org/x/sys v0.15.0
+	golang.org/x/net v0.20.0
+	golang.org/x/sys v0.16.0
 	gopkg.in/yaml.v2 v2.4.0
 )
