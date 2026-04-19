@@ -9,6 +9,7 @@ go 1.21
 //   - golang.org/x/net bumped to address CVE-2023-44487
 //   - golang.org/x/sys bumped to match golang.org/x/net v0.19.0 requirements
 //   - golang.org/x/exp bumped to latest for experimental slices/maps usage
+//   - TODO: try upgrading prometheus/client_golang to v1.18.x when stable
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.3.0
