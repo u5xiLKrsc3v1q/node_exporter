@@ -2,6 +2,8 @@ module github.com/prometheus/node_exporter
 
 go 1.21
 
+// Personal fork - tracking upstream prometheus/node_exporter
+// Last synced: 2024-01
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/beevik/ntp v1.3.0
